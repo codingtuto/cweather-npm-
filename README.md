@@ -15,18 +15,18 @@
 
 <h3>City Mode</h3>
 
-<p>In this mode, you can use the <code>weather</code> function to retrieve weather data based on a city name. You can specify the language as 'en' for English or 'fr' for French.</p>
+<p>In this mode, you can use the <code>weather</code> function to retrieve weather data based on a city name.</p>
 
 <pre><code>const { weather } = require('coding-weather');
 
-const cityName = 'paris';
+const cityName = 'Mexico';
 
-weather(cityName, 'en') // English language
+weather(cityName, undefined, 'en')
   .then(weatherData => {
     console.log('Weather Data (EN - City Mode):', weatherData);
   })
   .catch(error => {
-    console.error('Error:', error.message);
+    console.error('Error (EN - City Mode):', error.message);
   });
 </code></pre>
 
@@ -140,7 +140,8 @@ weather(latitude, longitude, 'en') // English language
 
 <p>To access specific weather data fields such as temperature, you can directly navigate through the response object returned by the API. Here's an example of how to access the temperature field:</p>
 
-<pre><code>weather(latitude, longitude, 'en')
+<pre><code>
+  weather(latitude, longitude, 'en')
   .then(weatherData => {
     const temperatureCelsius = weatherData.current.temp_c;
     const temperatureFahrenheit = weatherData.current.temp_f;
@@ -173,12 +174,12 @@ weather(latitude, longitude, 'en') // English language
 
 const cityName = 'paris';
 
-weather(cityName, 'fr') // Langue française
+weather(cityName, undefined, 'fr')
   .then(weatherData => {
-    console.log('Données Météo (FR - Mode Ville) :', weatherData);
+    console.log('Weather Data (FR - Mode Ville):', weatherData);
   })
   .catch(error => {
-    console.error('Erreur :', error.message);
+    console.error('Erreur (FR - Mode Ville):', error.message);
   });
 </code></pre>
 
