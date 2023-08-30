@@ -1,0 +1,21 @@
+{
+  "name": "coding-weather",
+  "version": "1.0.0",
+  "description": "Un package en nodejs utilisant Coding Weather API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["weather", "coding", "API"],
+  "author": "Coding Team",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codingtuto/cweather-npm-"
+  },
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "axios": "^1.5.0",
+    "node-fetch": "^3.2.6"
+  }
+}
