@@ -1,3 +1,14 @@
+[![GitHub Repo](https://img.shields.io/github/repo-size/codingtuto/cweather-npm)](https://github.com/codingtuto/cweather-npm-)
+[![GitHub Forks](https://img.shields.io/github/forks/codingtuto/cweather-npm?style=social)](https://github.com/codingtuto/cweather-npm-/forks)
+[![GitHub Stars](https://img.shields.io/github/stars/codingtuto/cweather-npm?style=social)](https://github.com/codingtuto/cweather-npm-/stargazers)
+[![GitHub Contributors](https://img.shields.io/github/contributors/codingtuto/cweather-npm)](https://github.com/codingtuto/cweather-npm-/graphs/contributors)
+
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/codingtuto/cweather-npm/Node.js%20CI)](https://github.com/codingtuto/cweather-npm-/actions/workflows/node.js.yml)
+[![Coverage Status](https://coveralls.io/repos/github/codingtuto/cweather-npm_/badge.svg?branch=main)](https://coveralls.io/github/codingtuto/cweather-npm-?branch=main)
+![Last Commit](https://img.shields.io/github/last-commit/codingtuto/cweather-npm-)
+
+[![npm](https://img.shields.io/npm/v/coding-weather)](https://www.npmjs.com/package/coding-weather)
+[![npm](https://img.shields.io/npm/dw/coding-weather)](https://www.npmjs.com/package/coding-weather)
 <h1>Coding Weather</h1>
 
 <p><strong>Note:</strong> Pour la documentation en francais, <a href="#french-section">cliquer ici</a>.</p>
